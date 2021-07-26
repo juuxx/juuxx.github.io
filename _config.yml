@@ -18,16 +18,13 @@
 # You can create any custom variable you would like, and they will be accessiblo
 # in the templates via {{ site.myvariable }}.
 
-title: out of sight
+title: juu-log
 email: juuxmee@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  공부해서 나 주자. 이것저것 공부해서 중구남방 올리는 블로그. 선기록 후습득.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  juuxx
 
 # Build settings
 theme: minima
