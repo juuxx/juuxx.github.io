@@ -12,7 +12,7 @@ mode: light # default theme "dark" | "light"
 author:
   name: juu - log # author name
   bio: >- # tell to the world
-    공부해서 나 주자. 이것저것 공부해서 중구남방 올리는 블로그. 선기록 후습득. <a href="https://github.com/juuxx" target="_blank" rel="noopener">@github</a>.
+    공부해서 나 주자. <a href="https://github.com/juuxx" target="_blank" rel="noopener">@github</a>.
   username: juu # general username
   github: juuxx # github username
   twitter: twitter_username # twitter username
