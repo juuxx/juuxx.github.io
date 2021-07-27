@@ -1,8 +1,7 @@
 # Site settings
 title: juu - log # site title
 description: >- # site description
-  공부해서 나 주자. 이것저것 공부해서 중구남방 올리는 블로그.
-  선기록 후습득. <a href="https://github.com/juuxx" target="_blank" rel="noopener">@github</a>.
+  공부해서 나 주자. <a href="https://github.com/juuxx" target="_blank" rel="noopener">@github</a>.
 lang: en-US # default lang
 timezone: Asia/Korea # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
