@@ -17,7 +17,7 @@ image:
 
 ## 페이지네이션 사용
 
-```
+```java
     @Query(
       value = "SELECT * FROM Users ORDER BY id",
       countQuery = "SELECT count(*) FROM Users",
@@ -31,7 +31,7 @@ parameter에 pageable을 넣으면 알아서 offset, limit 설정해줌
 
 단, 이후 버전인데 이걸 추가하면 실행이 안됨.. 주석이라 상관 없을 줄 알고 추가했는데.. paging 처리가 안됐었음 ..
 
-```
+```java
     @Query(
       value = "SELECT * FROM Users ORDER BY id **\n-- #pageable\n",**
       countQuery = "SELECT count(*) FROM Users",
@@ -62,7 +62,7 @@ Named Parameter 사용 시, `@Param("paramName")String paramName` 파라미터�
 
 ## 타임리프에서 데이터 가져올 때
 
-```
+```html
 <td class="tx_cnt" th:text="${list?.getNo()}"></td>
 <!-- NO -->
 <td class="tx_cnt" th:text="${list?.getGubun()}"></td>
